@@ -1,8 +1,7 @@
 import requests
 
 if __name__ == '__main__':
-    #url = r"https://customers.rai.ir/Main/Main.asp"
-    url = r"http://www.transinform.info"
+    url = r"https://customers.rai.ir"
     session = requests.Session()
     content = session.get(url)
     print(content)
